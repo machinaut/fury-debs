@@ -1,0 +1,11 @@
+Package: protobuf
+Version: __VERSION__
+Depends: zlib1g-dev
+Build-Depends: autoconf, automake, libtool, curl, make, g++, unzip
+Recommends: lsb-release
+Section: devel
+Priority: optional
+Architecture: amd64
+Installed-Size: __FILESIZE__
+Maintainer: Alex Ray <a@machinaut.com>
+Description: protoc/protobuf-c++ prebuilt package

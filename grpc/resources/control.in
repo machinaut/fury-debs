@@ -1,0 +1,11 @@
+Package: grpc
+Version: __VERSION__
+Depends: zlib1g-dev
+Build-Depends: autoconf, build-essential, libtool
+Recommends: lsb-release
+Section: devel
+Priority: optional
+Architecture: amd64
+Installed-Size: __FILESIZE__
+Maintainer: Alex Ray <a@machinaut.com>
+Description: grpc prebuilt package
