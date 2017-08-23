@@ -1,6 +1,6 @@
 .PHONY: all protobuf grpc
 
-all: upload
+all: protobuf grpc
 
 grpc:
 	make -C $@ upload
