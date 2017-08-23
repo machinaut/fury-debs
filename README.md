@@ -1,4 +1,4 @@
-# fury-deb
+# fury-debs
 
 Debian packages hosted on [Gemfury](https://gemfury.com):
 
@@ -13,7 +13,7 @@ Prebuilt packages are mostly an optimization for faster docker builds.
 
 To build and upload everything at once:
 
-    make upload
+    make
 
 See Makefiles in subdirectories for more.
 
