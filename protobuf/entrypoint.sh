@@ -8,7 +8,7 @@ rm -rf /release/*
 
 # Re-pull the repository
 git fetch && \
-    BUILD_VERSION=$(git tag | sort -r | grep -v rc | head -1) && \
+    BUILD_VERSION=$(cat VERSION) && \
     git checkout ${BUILD_VERSION} && \
     git submodule update --init
 
